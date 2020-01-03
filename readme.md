@@ -17,14 +17,14 @@ This library was originally cloned from https://github.com/Siccity/Bezier3D and 
 ## Importing JCMG Curves
 
 Using this library in your project can be done in two ways:
-* **Releases:** The latest release can be found [here](https://github.com/jeffcampbellmakesgames/unity-curves/releases) as a UnityPackage file that can be downloaded and imported directly into your project's Assets folder.
+* **Releases:** The latest release can be found [here](https://github.com/zapdot/unity-curves/releases) as a UnityPackage file that can be downloaded and imported directly into your project's Assets folder.
 * **Package:** Using the native Unity Package Manager introduced in 2017.2, you can add this library as a package by modifying your `manifest.json` file found at `/ProjectName/Packages/manifest.json` to include it as a dependency. See the example below on how to reference it.
 
 ```
 {
 	"dependencies": {
 		...
-		"com.jeffcampbellmakesgames.curves" : "https://github.com/jeffcampbellmakesgames/unity-curves.git#release/stable",
+		"com.jeffcampbellmakesgames.curves" : "https://github.com/zapdot/unity-curves.git#release/stable",
 		...
 	}
 }
